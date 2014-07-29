@@ -1,33 +1,33 @@
 {
-  "name": "benderjs-example-project",
-  "version": "0.1.0",
-  "description": "Example project using Bender.js for testing",
-  "main": "bender.js",
-  "directories": {
-    "test": "tests"
-  },
-  "devDependencies": {
-    "benderjs": "^0.1.3",
-    "benderjs-jasmine": "^0.2.0"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/benderjs/benderjs-example-project.git"
-  },
-  "keywords": [
-    "benderjs",
-    "bender",
-    "test",
-    "example",
-    "jasmine"
-  ],
-  "author": "CKSource <npm@cksource.com> (http://cksource.com/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/benderjs/benderjs-example-project/issues"
-  },
-  "homepage": "https://github.com/benderjs/benderjs-example-project"
+	"name": "benderjs-example-project",
+	"version": "0.1.0",
+	"description": "Example project using Bender.js for testing",
+	"main": "bender.js",
+	"directories": {
+		"test": "tests"
+	},
+	"devDependencies": {
+		"benderjs": "^0.1.3",
+		"benderjs-jasmine": "^0.2.0"
+	},
+	"scripts": {
+		"test": "bender run"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/benderjs/benderjs-example-project.git"
+	},
+	"keywords": [
+		"benderjs",
+		"bender",
+		"test",
+		"example",
+		"jasmine"
+	],
+	"author": "CKSource <npm@cksource.com> (http://cksource.com/)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/benderjs/benderjs-example-project/issues"
+	},
+	"homepage": "https://github.com/benderjs/benderjs-example-project"
 }
