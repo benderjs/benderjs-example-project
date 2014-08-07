@@ -7,11 +7,11 @@
 		"test": "tests"
 	},
 	"devDependencies": {
-		"benderjs": "^0.1.3",
+		"benderjs": "^0.1.5",
 		"benderjs-jasmine": "^0.2.0"
 	},
 	"scripts": {
-		"test": "bender run"
+		"test": "bender run -b firefox"
 	},
 	"repository": {
 		"type": "git",
