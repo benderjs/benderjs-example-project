@@ -28,7 +28,9 @@ var config = {
 				'!assets/'
 			]
 		}
-	}
+	},
+
+	testTimeout: 10 * 1000
 };
 
 module.exports = config;
