@@ -7,7 +7,7 @@
 		"test": "tests"
 	},
 	"devDependencies": {
-		"benderjs": "^0.1.5",
+		"benderjs": "git://github.com/benderjs/benderjs.git",
 		"benderjs-jasmine": "^0.2.0"
 	},
 	"scripts": {
