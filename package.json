@@ -11,7 +11,7 @@
 		"benderjs-jasmine": "^0.2.0"
 	},
 	"scripts": {
-		"test": "bender run -b firefox"
+		"test": "bender run"
 	},
 	"repository": {
 		"type": "git",

@@ -15,7 +15,7 @@ var config = {
 
 	framework: 'jasmine',
 
-	startBrowser: 'chrome',
+	startBrowser: 'firefox',
 
 	plugins: [ 'benderjs-jasmine' ],
 
