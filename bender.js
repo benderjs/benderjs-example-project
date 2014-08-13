@@ -13,11 +13,16 @@ var config = {
 		}
 	},
 
+	coverage: {
+		applications: [ 'ago' ],
+		report: 'html'
+	},
+
 	framework: 'jasmine',
 
 	startBrowser: 'firefox',
 
-	plugins: [ 'benderjs-jasmine' ],
+	plugins: [ 'benderjs-jasmine', 'benderjs-coverage' ],
 
 	tests: {
 		Core: {
