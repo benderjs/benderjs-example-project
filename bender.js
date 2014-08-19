@@ -14,8 +14,7 @@ var config = {
 	},
 
 	coverage: {
-		applications: [ 'ago' ],
-		report: 'html'
+		directory: '.bender/coverage/'
 	},
 
 	framework: 'jasmine',
