@@ -14,22 +14,25 @@ var config = {
 	},
 
 	coverage: {
-		directory: '.bender/coverage/'
+		directory: '.bender/coverage/',
+		paths: [
+			'lib/*.js'
+		]
 	},
 
 	framework: 'jasmine',
 
 	startBrowser: 'firefox',
 
-	plugins: [ 'benderjs-jasmine', 'benderjs-coverage' ],
+	plugins: [ 'benderjs-*' ],
 
 	tests: {
 		Core: {
 			applications: [ 'ago' ],
 			basePath: 'tests/',
 			paths: [
-				'/',
-				'!assets/'
+				'**',
+				'!assets/**'
 			]
 		}
 	},
