@@ -24,8 +24,8 @@ var config = {
 			applications: [ 'ago' ],
 			basePath: 'tests/',
 			paths: [
-				'/',
-				'!assets/'
+				'**',
+				'!assets/**'
 			]
 		}
 	},
