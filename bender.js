@@ -24,7 +24,7 @@ var config = {
 
 	startBrowser: 'firefox',
 
-	plugins: [ 'benderjs-*' ],
+	plugins: [ 'benderjs-jasmine', 'benderjs-coverage' ],
 
 	tests: {
 		Core: {
