@@ -28,7 +28,7 @@ describe( 'Ago', function() {
 		ago( '#date', false );
 		expect(
 			h.replaceWhitespaces( document.getElementById( 'date' ).outerHTML )
-		).toEqual(
+		).to.equal(
 			h.replaceWhitespaces( r.id )
 		);
 	} );
@@ -37,7 +37,7 @@ describe( 'Ago', function() {
 		ago( '.dates li' );
 		expect(
 			h.replaceWhitespaces( document.querySelector( '.dates' ).outerHTML )
-		).toEqual(
+		).to.equal(
 			h.replaceWhitespaces( r.list )
 		);
 	} );

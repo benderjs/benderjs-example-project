@@ -13,11 +13,11 @@ var config = {
 		}
 	},
 
-	framework: 'jasmine',
+	framework: 'mocha',
 
 	startBrowser: 'firefox',
 
-	plugins: [ 'benderjs-jasmine' ],
+	plugins: [ 'benderjs-mocha', 'benderjs-chai', 'benderjs-sinon' ],
 
 	tests: {
 		Core: {
@@ -25,7 +25,7 @@ var config = {
 			basePath: 'tests/',
 			paths: [
 				'**',
-				'!assets/**'
+				'!**/assets/**'
 			]
 		}
 	},

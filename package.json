@@ -8,7 +8,8 @@
 	},
 	"devDependencies": {
 		"benderjs": "git://github.com/benderjs/benderjs.git",
-		"benderjs-jasmine": "^0.2.3"
+		"benderjs-mocha": "~0.1.2",
+		"benderjs-chai": "~0.1.1"
 	},
 	"scripts": {
 		"test": "bender run"
