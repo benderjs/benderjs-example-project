@@ -17,7 +17,7 @@ var config = {
 
 	startBrowser: 'firefox',
 
-	plugins: [ 'benderjs-mocha', 'benderjs-chai', 'benderjs-sinon' ],
+	plugins: [ 'benderjs-amd', 'benderjs-mocha', 'benderjs-chai' ],
 
 	tests: {
 		Core: {
