@@ -25,7 +25,7 @@ var config = {
 			basePath: 'tests/',
 			paths: [
 				'**',
-				'!assets/**'
+				'!**/assets/**'
 			]
 		}
 	},
