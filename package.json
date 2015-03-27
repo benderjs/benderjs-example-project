@@ -8,8 +8,8 @@
 	},
 	"devDependencies": {
 		"benderjs": "git://github.com/benderjs/benderjs.git",
-		"benderjs-cli": "~0.1.0",
-		"benderjs-jasmine": "^0.2.3"
+		"benderjs-cli": "~0.1.1",
+		"benderjs-jasmine": "~0.2.3"
 	},
 	"scripts": {
 		"test": "bender run"
